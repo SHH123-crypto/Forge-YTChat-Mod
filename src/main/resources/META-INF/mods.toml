@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[61,)"
+license="MIT"
+clientSideOnly=true
+
+[[mods]]
+modId="ytchat"
+version="1.0"
+displayName="YouTube Chat Overlay"
+description='''
+Shows YouTube live chat inside Minecraft (client-side only).
+'''
+
+[[dependencies.ytchat]]
+modId="forge"
+mandatory=true
+versionRange="[61,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.ytchat]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.21.12)"
+ordering="NONE"
+side="CLIENT"
